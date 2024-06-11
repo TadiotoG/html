@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    align-items: center; /* Utilizado para centralizar horizontalmente*/
+    text-align: center; /* Para texto utilizado para centralizar horizontalmente*/
+    justify-content: center; /* Utilizado para centralizar verticalmente*/
+    background: linear-gradient(to bottom, rgb(174, 126, 236), rgb(192, 57, 233), rgb(255, 248, 248));
+}
+
+#img_g{
+    box-shadow: 0px 0px 40px 3px white;
+    margin: 0rem;
+}
+
+body h1{
+    font-size: 2rem; /* Rem utiliza dimensão da tela 3%*/
+    color: rgb(180, 97, 1);
+    text-shadow: 2px 2px 10px rgb(78, 12, 51);
+    /* Primeiro px DIREITA, segundo px ESQUERDA, terceiro px densidade*/
+    letter-spacing: 4px;
+    word-spacing: 18px;
+}
+

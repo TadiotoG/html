@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, rgb(132, 221, 191), rgb(219, 136, 241), rgb(132, 221, 191));
+    font: normal 16px Arial, Verdana, serif;
+    text-align: center;
+}
+
+div.anota {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin: auto;
+    box-shadow: 2px 2px 20px black;
+}
+
+p.anota{
+    color: rgb(1, 100, 1);
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px 2px 20px rgb(0, 95, 63);
+}
+
+h2.anota {
+    font-size: 50px;
+    text-shadow: 2px 2px 20px rgb(0, 46, 99);
+    color: rgb(0, 17, 255);
+    margin-bottom: 30px;
+}
+
+.importante{
+    color: brown;
+}
+
+.grifado {
+    background-color: rgb(255, 238, 0);
+}

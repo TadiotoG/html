@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        header {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40;
+            background-color: aquamarine;
+            outline-color: azure;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: grey;
+            box-shadow: 0px 0px 8px 2px black;
+                /* 1º desloc vertical 
+                   2º desloc horizontal
+                   3º blur
+                   4º spread
+                   5º in/out */
+            padding: 10px;
+            border-radius: 5px 20px;
+
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 2px;
+        }
+
+        footer > p {
+            margin: 0;
+            padding: 4px;
+        }
+
+        div#bola {
+            text-align: center;
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            border-radius: 50px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <h1>Sitezinho do pai</h1>
+        <nav>
+            <a href="index.html">First site<br></a>
+            <a href="index2.html">Second site<br></a>
+            <a href="">Linkzinho do bao<br></a>
+            <a href="">Linkzinho do bao<br></a>
+            <a href="">Linkzinho do bao<br></a>
+        </nav>
+    </header>
+
+    <main>
+        <section id = "assuntos">
+
+        </section>
+
+        <section id = "noticias">
+            <article>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium ut quo ad deserunt non enim sequi consectetur dolorum suscipit. Odit nihil cumque aliquid, voluptates saepe ex omnis ullam deleniti similique.
+                </h2>
+                <aside>
+                    <p>O bão</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Gabriel Tadioto</p>
+    </footer>
+
+    <div id = bola></div>
+
+</body>
+</html>

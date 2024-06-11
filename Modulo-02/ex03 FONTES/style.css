@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; /* Geralmente se utiliza 16px */
+    text-align: center;
+    font-weight: normal; /* lighter normal bold bolder  */
+    font-style: italic;
+    text-decoration: none; /* Sublinhado */
+    background-image: linear-gradient(to left, blue, rgb(0, 0, 0));
+}
+
+h1 {
+    /* shorthand font
+    font-style -> font-weight -> font-size -> font-family
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    */
+    font: italic bolder 3em 'Work Sans';
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /*Bordas*/
+    box-shadow: 10px 10px 15px #000000;
+    width: 500px;
+    padding: 10px;
+    margin: auto; /*Centraliza*/
+}
+
+.inserindo{
+    background-color: white;
+    border-radius: 10px; /*Bordas*/
+    box-shadow: 10px 10px 15px #000000;
+    width: 500px;
+    padding: 10px;
+    margin: auto; /*Centraliza*/
+    margin-top: 20px;
+
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    letter-spacing: 2px; /*Espaçamento entre as letras*/
+    font-size: 20px;
+}

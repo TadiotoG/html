@@ -1,0 +1,41 @@
+.acende {
+    display: inline-block;
+    background-color: rgb(146, 143, 144);
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+.acende:hover {
+    background-color: yellow;
+}
+
+.importante:hover {
+    color: brown;
+    text-shadow: 2px 2px 10px rgb(82, 80, 11);
+}
+
+.anota{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 10px blue;
+}
+
+#esconde{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 10px rgb(182, 53, 175);
+}
+
+#xinga {
+    display: none;
+}
+
+#esconde:hover > #xinga {
+    text-shadow: 2px 2px 10px rgb(0, 255, 136);
+    display: block;
+    
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class = "h1">
+        <h1>Imagens dinamicas</h1>
+    </div>
+    
+    <p>Aumente e diminua o tamanho do seu navegador para ver o tamanho das imagens</p>
+
+    <picture>
+        <source media="(max-width: 730px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img id="img_g" src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    
+    <div>
+        <h1>Reproduzindo Áudio</h1>
+    </div>
+    
+    <p>Vamos aprender a reproduzir audios</p>
+    <audio src="midia/maria.mp3" controls></audio>
+
+    <h1>Reproduzindo Vídeo</h1>
+    <p>Video brabro de rl ao som de <strong>Luísa Sonza</strong></p>
+    <video src="midia/RL.mp4" width="500" controls poster="midia/CapaRL.webp"></video>
+
+    <!-- MP3 WAV OGG-->
+    <!-- Video sobre hospedagem propria do Guanabara explica como mexer com formatos, caso seu navegador não aceite um especifico-->
+</body>
+</html>

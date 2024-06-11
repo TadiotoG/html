@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utilizando modelo de caixas</title>
+    <style>
+        h1 {
+            background-color: antiquewhite;
+            height: 300px;
+            width: 300px;
+
+            /* display: inline; */
+
+            /* Short hand abaixo  
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkblue; */
+            border: 10px solid darkblue;
+
+            /* Short hand abaixo      
+            padding-top: 10px; 1º
+            padding-right: 10px; 2º
+            padding-bottom: 10px; 3º
+            padding-left: 10px; 4º
+            */
+            padding: 10px 10px 10px 10px; /* Sentido HORARIO */
+
+            /* Short hand abaixo
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+            margin: 20px auto 40px auto;
+
+            /* Short hand abaixo
+            outline-width: 30px;
+            outline-style: dotted;
+            outline-color: lightblue; */
+
+            outline: 15px dashed salmon;
+
+        }
+
+        a {
+            border-width: 10px;
+            border-style: double;
+            border-color: red;
+
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-bottom: 5px;
+            padding-right: 5px;
+
+            text-decoration: none;
+        }
+
+        button {
+            width: 70px;
+            height: 70px;
+            margin: center;
+        }
+
+        .botao {
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+        }
+        .botao > button {
+            color: black;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos também são box-leve, mas os <a href="index.html">links sao inline-level</a></p>
+
+    <p>Ao inspecionar uma página, voce vera o user agent, que é seu navegador</p>
+    <p>Utilizar margin: auto; para centralizar a div no meio</p>
+    <p>É possível alterar o display dos elementos para qual voce quiser, descomentar linha 13 para visualizar</p>
+    <p><a href="index3.html">Grouping Tags</a></p>
+    <div class="botao"><button>Meu botão</button></div>
+    
+</body>
+</html>

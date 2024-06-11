@@ -1,0 +1,5 @@
+body {
+    text-align: center;
+    background: radial-gradient(circle,#e66465, #9198e5);
+    background-attachment: fixed;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    align-items: center; /* Utilizado para centralizar horizontalmente*/
+    text-align: center; /* Para texto utilizado para centralizar horizontalmente*/
+    justify-content: center; /* Utilizado para centralizar verticalmente*/
+    background: linear-gradient(to bottom, rgb(114, 123, 252),rgb(255, 45, 255), rgb(0, 0, 0));
+}
+
+#aparencia{
+    box-shadow: 0px 0px 20px 1px white;
+    margin: 0rem;
+}
+
+body h1{
+    font-size: 2.5rem; /* Rem utiliza dimensão da tela 3%*/
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+    /* Primeiro px DIREITA, segundo px ESQUERDA, terceiro px densidade*/
+    letter-spacing: 4px;
+    word-spacing: 18px;
+    margin: 1rem;
+}
+
+body h2{
+    font-size: 1.5rem; /* Rem utiliza dimensão da tela 3%*/
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px rgb(4, 0, 255);
+    /* Primeiro px DIREITA, segundo px ESQUERDA, terceiro px densidade*/
+    letter-spacing: 1px;
+    word-spacing: 7px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+body p{
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+#final{
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
