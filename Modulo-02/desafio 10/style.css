@@ -87,7 +87,7 @@ main {
 
 main > #content {
     background-color: white;
-    min-width: 200px;
+    min-width: 160px;
     max-width: 900px;
     margin: auto;
     padding: 20px;
