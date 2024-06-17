@@ -30,7 +30,7 @@ main {
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .no_background {
@@ -38,11 +38,11 @@ main {
 }
 
 .img_background > p {
-    background-color: rgba(128, 128, 128, 0.46);
+    background-color: rgba(0, 0, 0, 0.46);
     margin: 0px;
     color: white;
     text-shadow: 2px 2px 1px black;
-    border-radius: 10px;
+    border-radius: 5px;
     max-width: 300px;
     padding: 0% 4% 0% 4%;
     margin: 0% 1% 0% 1%;
@@ -56,4 +56,17 @@ main {
 #i2 {
     background: black url("imagens/background002.jpg") center center/cover no-repeat fixed;
     padding: 5%;
+}
+
+footer {
+    margin: 0px;
+    text-align: center;
+    padding: 6px;
+    background-image: linear-gradient(to bottom, white, rgb(128, 128, 128), rgb(51, 50, 50));
+}
+
+footer > p {
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
 }
