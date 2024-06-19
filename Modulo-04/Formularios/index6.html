@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 6</title>
+</head>
+<body>
+    <fieldset>
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="icor">Cor: </label>
+                <input type="color" name="cor" id="icor" value="#FFFFFF">
+            </p>
+
+            <p>
+                <label for="isat">Satisfação</label>
+                <input type="range" name="sat" id="isat" min="1" max="10" step="1" value="2" oninput="rout.innerHTML = Number(isat.value)">
+                <output id="rout">2</output>
+            </p>
+
+            <p>
+                <label for="ifile">Foto de perfil: </label>
+                <input type="file" name="file" id="ifile">
+            </p>
+            
+            <input type="submit" value="Enviar">
+
+            <p>Ao utilizar o envio de arquivos utilizar o method = POST (3 mil bytes)</p>
+        </form>
+    </fieldset>
+    
+</body>
+</html>

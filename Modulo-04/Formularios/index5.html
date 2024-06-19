@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários 5</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sex" id="isexmasc" value = "H" checked>
+            <label for="isexmasc">Masculino<br></label>
+
+            <input type="radio" name="sex" id="isexfem"  value = "F">
+            <label for="isexfem">Feminino<br></label>
+
+            <p>Todo botao de radio deve ter o mesmo nome caso voce queira que ao selecionar um, o outro seja desmarcado</p>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+
+            <input type="checkbox" name="tkw" id="itkw" checked>
+            <label for="itkw"> Taekwondo <br></label>
+
+            <input type="checkbox" name="fut" id="ifut" checked>
+            <label for="ifut"> Futebol <br></label>
+
+            <input type="checkbox" name="nat" id="inat">
+            <label for="inat"> Natação <br></label>
+
+        </fieldset>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </p>
+    </form>
+
+    <p><a href="index6.html">Página 6</a></p>
+    
+</body>
+</html>
